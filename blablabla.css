@@ -1,0 +1,12 @@
+.cardss { 
+ display: flex ;
+ flex-direction: row; 
+ justify-content: space-around;
+}
+
+.darkk{ 
+    background-color: #3e3e3e  ;
+}
+.light-textt {
+color: darkturquoise;
+}
