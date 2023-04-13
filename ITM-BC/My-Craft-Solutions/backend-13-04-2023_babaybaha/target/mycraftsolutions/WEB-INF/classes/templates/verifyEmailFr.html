@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="Fr" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .container {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h3 th:text="${title}">TITLE</h3>
+  <p th:text="${msg}"></p>
+  <p>Pouvez-vous activer votre compte avec l'url suivante</p>
+  <p>Vous pouvez vous connecter :
+    <a th:href="${link}" th:text="${link}">Lien</a></p>
+  <p>Merci.</p>
+  <p>
+    <em th:text="${signature}"> </em>
+    <br>
+    <img src="./j.jpg" />
+  </p>
+
+</div>
+</body>
+</html>
